@@ -9,7 +9,7 @@
     });
 
     // var countdown_date = $('.countdown').data("date");
-    var countdown_date = new Date("9 June 2022 8:00:00 GMT+05:30");
+    var countdown_date = new Date("9 June 2022 11:00:00 GMT+05:30");
 
     $('.countdown').countdown(countdown_date, function(event) {
         $('.dday').html(event.strftime('%-D'));
