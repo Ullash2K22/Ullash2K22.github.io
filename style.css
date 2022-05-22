@@ -19,6 +19,13 @@ body {
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "sunrisewaves";
+    src: url(fonts/SunriseWaves.ttf);
+    src: url(fonts/SunriseWaves.otf);
+    font-weight: 400;
+}
+
 .d-col-n {
     position: relative;
     width: 100%;
@@ -173,7 +180,9 @@ body {
     text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 } 
-
+.logo-bolded {
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+}
 .site-navigation.show ul {
     left: 0;
 }
@@ -240,7 +249,14 @@ body {
 .hero-content {
     padding: 220px 0;
     background: url("images/cover.jpg") no-repeat;
-    background-size: cover;
+    background-size: auto;
+    /* Added later */
+    /* background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-content .entry-header {
@@ -254,6 +270,7 @@ body {
     font-family: mountains;
     font-size:120px;
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    /* background: -webkit-linear-gradient(#f4d444, #f86ca7); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1047,8 +1064,8 @@ body {
     margin: 0 !important;
     padding: 0;
     margin-top: 25px !important;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     color: #989898;
     line-height: 2;
     word-break: break-all;
