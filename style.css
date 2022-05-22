@@ -19,13 +19,6 @@ body {
     font-weight: 400;
 }
 
-@font-face {
-    font-family: "sunrisewaves";
-    src: url(fonts/SunriseWaves.ttf);
-    src: url(fonts/SunriseWaves.otf);
-    font-weight: 400;
-}
-
 .d-col-n {
     position: relative;
     width: 100%;
