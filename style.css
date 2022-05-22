@@ -985,6 +985,9 @@ body {
 .about-us .page-header {
     background: url("images/about-us-header-background.jpg") no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .page-header .entry-title {
@@ -1066,10 +1069,10 @@ body {
     margin-top: 25px !important;
     font-size: 20px;
     font-weight: 400;
-    color: #989898;
+    color: #000000;
     line-height: 2;
-    word-break: break-all;
-    hyphens: auto;
+    /* hyphens: auto;
+    word-break: keep-all; */
 }
 
 .about-us .main-content .featured-image {
@@ -1506,6 +1509,9 @@ body {
 ------------------------------------------------------------*/
 .blog-page .page-header {
     background: url("images/blog-header-background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .blog-list-page .single-blog-content {
@@ -1608,6 +1614,9 @@ body {
 ------------------------------------------------------------*/
 .contact-page .page-header {
     background: url("images/contact-header-background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .contact-page .main-content {
