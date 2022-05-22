@@ -985,7 +985,6 @@ body {
 .about-us .page-header {
     background: url("images/about-us-header-background.jpg") no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
