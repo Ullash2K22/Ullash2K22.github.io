@@ -1506,12 +1506,16 @@ body {
     background-attachment: fixed;
 }
 
-.blog-list-page .single-blog-content {
+/* .blog-list-page .single-blog-content {
     display: none;
 }
 
 .blog-list-page .single-blog-content.visible {
     display: block;
+} */
+
+.invis-tile {
+    opacity: 0;
 }
 
 .blog-page .blog-list-page .blog-content {
