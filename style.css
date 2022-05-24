@@ -336,6 +336,10 @@ body {
     font-weight: 600;
 }
 
+.btn {
+    margin-bottom: 15px !important;
+}
+
 .hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     color: hsl(0, 0%, 0%);
